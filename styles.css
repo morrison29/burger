@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color : #12372A;
+}
+header{
+    display : flex;
+    gap : 30rem;
+    align-items : center;
+    padding : 2rem 3rem;
+}
+.brand{
+    font-family : Lexend Zetta, sans-serif;
+    font-size : 3.1rem;
+    font-weight : 700;
+    color : #FBFADA;
+}
+ul{
+    display : flex;
+    gap : 5rem;
+    list-style-type : none;
+}
+li > a{
+    text-decoration : none;
+    font-family : Sansita Swashed, sans-serif;
+    font-size : 1.6rem;
+    color : #FBFADA;
+}
+main{
+    padding: 0rem 5rem;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-transform : uppercase;
+}
+.ultimate-h{
+    font-family : Lexend Zetta, sans-serif;
+    font-size : 3.1rem;
+    color : #adbc9f;
+    padding-left : 5rem;
+}
+.burger-h{
+    font-family : Sansita Swashed, sans-serif;
+    font-size : 7rem;
+    font-weight : 700;
+    color : #FBFADA;
+}
+img{
+    width : 50rem;
+    height : 50rem;
+}
