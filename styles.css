@@ -8,7 +8,7 @@ body{
 }
 header{
     display : flex;
-    gap : 30rem;
+    gap :10rem;
     align-items : center;
     padding : 2rem 3rem;
 }
@@ -41,17 +41,23 @@ h1{
 }
 .ultimate-h{
     font-family : Lexend Zetta, sans-serif;
-    font-size : 3.1rem;
+    font-size : 2.7rem;
     color : #adbc9f;
-    padding-left : 5rem;
+    padding-left : 3rem;
 }
 .burger-h{
     font-family : Sansita Swashed, sans-serif;
-    font-size : 7rem;
+    font-size : 5rem;
     font-weight : 700;
     color : #FBFADA;
 }
+.savor-p{
+    color : #adbc9f;
+    font-family : Lexend Zetta, sans-serif;
+    font-size : 1.25rem;
+    padding-left : 3rem;
+}
 img{
-    width : 50rem;
-    height : 50rem;
+    width : 30rem;
+    height : 30rem;
 }
