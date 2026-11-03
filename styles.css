@@ -72,3 +72,33 @@ img{
     width : 5rem;
     height : 5rem;
 }
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-family: Lexend Zetta, sans-serif;
+}
+.articles{
+    display: flex;
+    gap: 20px;
+}
+article{
+    height: 18rem;
+    background: linear-gradient(to bottom, #3F5F52, #2C4A3E);
+    width: 16rem;
+    border-radius: 20px;
+}
+.box-img{
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Lexend Zetta;
+    font-size: 1rem;
+}
