@@ -77,22 +77,24 @@ h1{
     font-size: 3rem;
     color: #FFFFFF;
     font-family: Lexend Zetta, sans-serif;
+    margin-bottom: 30px;
 }
 .articles{
-    display: flex;
-    gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap : 1rem;
+    width: 75%;
+    margin: auto;
+    row-gap: 62px;
 }
 article{
-    height: 18rem;
+    
     background: linear-gradient(to bottom, #3F5F52, #2C4A3E);
-    width: 16rem;
     border-radius: 20px;
 }
 .box-img{
-    width: 15rem;
-    height: 15rem;
+    width: 100%;
+
     border: none;
     display: block;
     margin-left: auto;
