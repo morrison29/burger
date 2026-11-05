@@ -81,6 +81,8 @@ h1{
 .articles{
     display: flex;
     gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 article{
     height: 18rem;
